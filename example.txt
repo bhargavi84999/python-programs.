@@ -1,0 +1,1 @@
+ Trying to write some text to a file with read permission
