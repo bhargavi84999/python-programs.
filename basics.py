@@ -18,7 +18,10 @@ for i  in range(250,550):
 for i in range(700,900):
     if(i%2==0):
         print("even numbers")
-b=75
+
+num = int(input("Enter a number: "))
+if num < 0 or num > 100:
+    print("Invalid input")
 if b>=91 and b<=100:
     print("super smart")
 elif b>=81 and b<=90:
@@ -69,6 +72,22 @@ sum=0
 for i in range(56,154):
     sum=sum+i
 print("sum=",sum)
+
+num = int(input("Enter a number: "))
+if num < 0 or num > 100:
+    print("Invalid input")
+if b>=91 and b<=100:
+    print("super smart")
+elif b>=81 and b<=90:
+    print("smart")
+elif b>=71 and b<=80:
+    print("smart enough")
+elif b>=61 and b<=70:
+    print("just smart")
+elif b>=36 and b<=60:
+    print("no smart")
+else:
+    print("dump")
 
 
 
