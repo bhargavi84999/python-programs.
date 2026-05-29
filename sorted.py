@@ -9,3 +9,7 @@ l=[21,3,2,5,22,6,32]
 b=sorted(l,key=lambda x:x%3)
 print(b)
 
+from functools import reduce
+l=[7,8,6,3]
+k=reduce(lambda x,y:x+y,l,10)
+print(k)
